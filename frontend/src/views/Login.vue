@@ -62,6 +62,20 @@ async function login() {
 
           <v-row class="text-white justify-center mt-2" no-gutters>
             <v-col cols="10" md="8">
+              <template>
+                <div>
+                  <!-- Other login form elements -->
+              
+                  <!-- Bypass Login Checkbox -->
+                  <label>
+                    <input type="checkbox" v-model="bypassLogin" />
+                    Bypass Login
+                  </label>
+              
+                  <button @click="login" :disabled="logging">Login</button>
+                </div>
+              </template>
+              
               <v-form @submit.prevent>
                 <v-text-field
                   v-model="username"
