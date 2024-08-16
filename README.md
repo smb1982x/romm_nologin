@@ -1,7 +1,7 @@
 <!-- trunk-ignore-all(markdownlint/MD033) -->
 <!-- trunk-ignore(markdownlint/MD041) -->
 <div align="center">
-
+POOP
   <img src=".github/resources/romm_complete.svg" height="220px" width="auto" alt="romm logo">
 
   <h3 style="font-size: 25px;">
